@@ -1,5 +1,3 @@
-# iris-classifier-enhanced
-Iris Classifier with Enhanced Dashboard - MLOps Lab
 # Iris Classifier with Enhanced Dashboard
 
 Advanced machine learning application for classifying iris flower species with an enhanced Streamlit dashboard and confidence score visualization.
@@ -208,7 +206,8 @@ Response:
 
 ### Main Prediction Interface
 
-![Prediction Tab Screenshot](prediction-tab.png)
+<img width="3161" height="1471" alt="Screenshot 2026-01-31 171131" src="https://github.com/user-attachments/assets/1dca60d7-bd10-45bc-bd67-33f6528e2fb5" />
+
 
 **Interactive Input Controls:**
 - Sepal Length slider (adjustable from 4.0 to 8.0 cm)
@@ -230,7 +229,8 @@ Response:
 
 ### Prediction Result Display
 
-![Prediction Result Screenshot](prediction-result.png)
+<img width="1174" height="869" alt="Screenshot 2026-01-31 171139" src="https://github.com/user-attachments/assets/f9809834-b0fa-4cd3-96de-a6472c6df1da" />
+
 
 **Prediction Output Features:**
 - Large heading showing the predicted iris species
@@ -252,7 +252,8 @@ Response:
 
 ### Enhanced Dashboard with Visualizations
 
-![Statistics and History Screenshot](statistics-history.png)
+<img width="3166" height="1727" alt="Screenshot 2026-01-31 171214" src="https://github.com/user-attachments/assets/aaa8ec2e-0249-41c5-8053-11a59e52ae16" />
+
 
 **Visual Enhancements:**
 - Colorful animated balloons appearing on successful prediction
@@ -341,27 +342,6 @@ This enhanced version includes:
 - Real-time model monitoring
 - Export prediction history to CSV
 
-## Troubleshooting
-
-**Connection Error to API**
-- Ensure Flask API is running on port 8080
-- Check that the API URL in streamlit_app.py is correct
-
-**Port Already in Use**
-- Change the port number in src/main.py
-- Or kill the process using the port
-
-**Model Not Found**
-- Ensure model.pkl exists in the model folder
-- Retrain the model using src/train.py
-
-## License
-
-This project is created for educational purposes as part of MLOps Lab Assignment.
-
-## Author
-
-Created as MLOps Lab Assignment - Enhanced Iris Classifier with Dashboard Improvements
 
 ## Acknowledgments
 
@@ -370,6 +350,3 @@ Created as MLOps Lab Assignment - Enhanced Iris Classifier with Dashboard Improv
 - Scikit-learn machine learning library
 - Plotly visualization library
 
-## Contact
-
-For questions or issues, please contact your instructor or refer to the course materials.
